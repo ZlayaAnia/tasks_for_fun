@@ -18,14 +18,21 @@ Import and initialization
 Get a list of pattern's names:
 ```
 >>> pat.list_pattern()
-['Factory Method', 'Abstract Factory', 'Builder', 'Prototype', 'Singleton', 'Adapter', 'Bridge', 'Composite', 'Decorator', 'Facade', 'Flyweight', 'Proxy', 'Chain of Responsibility', 'Command', 'Iterator', 'Mediator', 'Memento', 'Observer', 'State', 'Strategy', 'Template Method', 'Visitor']
+['Factory Method', 'Abstract Factory', 'Builder', 'Prototype', 'Singleton', 
+'Adapter', 'Bridge', 'Composite', 'Decorator', 'Facade', 
+'Flyweight', 'Proxy', 'Chain of Responsibility', 'Command',
+'Iterator', 'Mediator', 'Memento', 'Observer', 'State', 'Strategy'
+'Template Method', 'Visitor']
 ```
 Get information about pattern:
 ```
 >>> pat.pattern_info("proxy")
-'Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.'
+'Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. 
+A proxy controls access to the original object,
+allowing you to perform something either before or after the request gets through to the original object.'
 
 >>> pat.pattern_info("pro")
-This pattern is not on the site, try with other names. Available names can be obtained with PatternParser.list_pattern()
+This pattern is not on the site, try with other names. 
+Available names can be obtained with PatternParser.list_pattern()
 
 ```
