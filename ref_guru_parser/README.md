@@ -18,9 +18,9 @@ Import and initialization
 Get a list of pattern's names:
 ```
 >>> pat.list_pattern()
-['Factory Method', 'Abstract Factory', 'Builder', 'Prototype', 'Singleton', 'Adapter', 'Bridge', 'Composite', 'Decorator', 'Facade', 
-'Flyweight', 'Proxy', 'Chain of Responsibility', 'Command', 'Iterator', 'Mediator', 'Memento', 'Observer', 'State', 'Strategy'
-'Template Method', 'Visitor']
+['Factory Method', 'Abstract Factory', 'Builder', 'Prototype', 'Singleton', 'Adapter', 'Bridge', 'Composite', 
+'Decorator', 'Facade', 'Flyweight', 'Proxy', 'Chain of Responsibility', 'Command', 'Iterator', 'Mediator', 
+'Memento', 'Observer', 'State', 'Strategy', 'Template Method', 'Visitor']
 ```
 Get information about pattern:
 ```
